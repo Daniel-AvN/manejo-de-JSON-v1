@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Sansita', sans-serif;
+    font-size: 1em;
+}
+
+:root{
+    --colorPrincipal: #eee;
+}
+
+::first-letter{
+    text-transform: capitalize;
+
+}
+
+header{
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+header:hover{
+    cursor: wait;
+}
+body{
+    background-color: #9cecec;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.title, .form__title{
+    font-family: 'Alkatra', cursive;
+    font-size: 3em;
+    text-shadow: 0 0 8px gold;
+}
+.container{
+    display: flex;
+}
+div{
+    background-color: var(--colorPrincipal);
+    margin: 2em;
+    /* height: 200px; */
+    width: 30%;
+    border-radius: 1em;
+    padding-top: 40px;
+    padding: 20px;
+}
+
+li::marker{
+    color: red;
+}
